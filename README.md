@@ -4,5 +4,5 @@ Opus-5 is a setup script generating web-app. U can easily choose what do u want 
 Can generate now:<br>
 <ul>
     <li>Docker for ubuntu</li>
-    <li>Portainer (docked)</li>
+    <li>Portainer (docker)</li>
 </ul>

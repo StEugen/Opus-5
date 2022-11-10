@@ -16,6 +16,7 @@ def index():
         checked =  request.form.getlist('check')
         print(checked)
         if "docker-ubuntu-22" in checked:
+            #this was added for testing purposes only. Code to be re-written 
             text = [
                 '#start of docker installation',
                 'sudo apt-get update',

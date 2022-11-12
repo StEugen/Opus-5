@@ -6,5 +6,6 @@ Can generate now:<br>
 <ul>
     <li>Docker for ubuntu</li>
     <li>Portainer (docker)</li>
+    <li>JupyterHub</li>
 </ul>
 <h2>Work in progres...</h2>

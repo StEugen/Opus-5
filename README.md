@@ -8,4 +8,4 @@ Can generate now:<br>
     <li>Portainer (docker)</li>
     <li>JupyterHub</li>
 </ul>
-<h2>Work in progres...</h2>
+<h2>Right now it works fine on local machine but have issues running on Vercel. Looking for a solution. Work in progres...</h2>

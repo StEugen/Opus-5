@@ -12,7 +12,7 @@ app = Flask(__name__, template_folder='./template')
 @app.route('/', methods=["GET", "POST"])
 def index():
     if request.method == 'POST':
-        f = open('./sh-files/script.sh', 'w')
+        f = open('sh-files/script.sh', 'w')
         checked =  request.form.getlist('check')
         for item in checked:
             if item in checked:

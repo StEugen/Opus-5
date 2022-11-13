@@ -11,7 +11,7 @@
     "routes":[
         {
             "src": "/(.*)",
-            "dest": "vercel_app/index.py"
+            "dest": "./index.py"
         }
     ]
 }

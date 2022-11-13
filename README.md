@@ -8,4 +8,4 @@ Can generate now:<br>
     <li>Portainer (docker)</li>
     <li>JupyterHub</li>
 </ul>
-<h2>Work in progres...</h2>
+<h2>Available for use</h2>

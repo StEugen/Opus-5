@@ -10,7 +10,7 @@
     ],
     "redirects":[
         {
-            "source": "/",
+            "source": "(.*)",
             "destination": "app.py"
         },
         {

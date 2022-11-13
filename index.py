@@ -12,7 +12,7 @@ app = Flask(__name__, template_folder='./template')
 @app.route('/', methods=["GET", "POST"])
 def index():
     if request.method == 'POST':
-        f = open('./sh-files/test.sh', 'w')
+        f = open('./sh-files/script.sh', 'w')
         checked =  request.form.getlist('check')
         for item in checked:
             if item in checked:
@@ -25,7 +25,7 @@ def index():
 
 @app.route('/download', methods=['GET', 'POST'])
 def download():
-    path = './sh-files/test.sh'
+    path = './sh-files/script.sh'
     return send_file(path, as_attachment=True)
 
 

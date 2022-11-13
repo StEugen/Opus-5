@@ -8,10 +8,14 @@
 
         }
     ],
-    "routes":[
+    "redirects":[
         {
-            "src": "(.*)",
-            "dest": "app.py"
+            "source": "/",
+            "destination": "app.py"
+        },
+        {
+            "source": "/download",
+            "destination": "app.py"
         }
     ]
 }

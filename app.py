@@ -25,7 +25,7 @@ def index():
 
 @app.route('/download', methods=['GET', 'POST'])
 def download():
-    path = './sh-files/script.sh'
+    path = 'sh-files/script.sh'
     return send_file(path, as_attachment=True)
 
 

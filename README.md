@@ -7,5 +7,6 @@ Can generate now:<br>
     <li>Docker for ubuntu</li>
     <li>Portainer (docker)</li>
     <li>JupyterHub</li>
+    <li>Moodle (in docker)</li>
 </ul>
 <h2>Available for use</h2>
